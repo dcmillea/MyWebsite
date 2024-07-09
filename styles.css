@@ -38,6 +38,10 @@ li {
     margin-bottom: 56px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* NAVIGATION BAR */
 
@@ -58,7 +62,6 @@ nav {
 .nav__link--anchor { 
     margin: 0 12px;
     color: #242424;
-    text-decoration: none;
     font-weight: 700;
 }
 
@@ -239,5 +242,77 @@ section:nth-child(even) {
     position: absolute;
     top: 50%;
     left: 90px;
+    max-width: 550px;
+    transform: translateY(100%);
+    z-index: 3;
+    opacity: 0;
+    transition: 300ms ease;
+}
+
+.project:hover .project__description {
+    opacity: 1;
     transform: translateY(-50%);
+}
+
+.project__description--title {
+    font-size: 40px;
+} 
+
+.project__description--para {
+    margin: 16px 0px;
+}
+
+.project__description--link {
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+.project__description--title, 
+.project__description--sub-title,
+.project__description--para,
+.project__description--link
+{
+    text-align: left;
+    color: #fff;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #242424;
+}
+
+.footer__row {
+    padding: 8% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__logo--img {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: #fff;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.social__footer--list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 44px 44px;
 }
