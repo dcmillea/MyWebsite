@@ -1,11 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
-</head>
-<body>
-    My name is Danny
-</body>
+    <script
+      src="https://kit.fontawesome.com/91a3f86bb0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo">Daniel Millea</div>
+        <ul class="nav__link--list">
+          <li>
+            <a href="" class="nav__link--anchor">Languages</a>
+          </li>
+          <li>
+            <a href="" class="nav__link--anchor">Projects</a>
+          </li>
+          <li>
+            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="about-me__info row">
+        <div class="about-me__info--container">
+          <h1 class="about-me__info--title">
+            Hey! I'm <span class="text--red">Danny</span> 👋
+          </h1>
+          <p class="about-me__bio">
+            I'm a
+            <strong class="text--red">frontend software engineer</strong> with a
+            passion for creating intuitive and engaging user interfaces. I bring
+            designs to life with clean and efficient code. My focus is on
+            delivering seamless, responsive experiences that delight users
+            across all devices.
+          </p>
+        </div>
+        <div class="about-me__links">
+          <a class="about-me__link" href="">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a class="about-me__link" href="">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a class="about-me__link" href="">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a class="about-me__link" href="">
+            <i class="fa-solid fa-image-portrait"></i>
+          </a>
+        </div>
+      </div>
+      <figure class="about-me__image--container">
+        <img
+          class="about-me__img"
+          src="./imports/images/undraw_building_websites_i78t.svg"
+          alt="logo"
+        />
+      </figure>
+    </section>
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            This is my <span class="text--red">technology stack</span>
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__image--wrapper">
+                <img
+                  class="tech-stack-icon"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  alt="language__image"
+                />
+              </figure>
+              <span class="language__name">HTML</span>
+            </div>
+            <div class="language">
+              <figure class="language__image--wrapper">
+                <img
+                  class="tech-stack-icon"
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  alt="language__image"
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__image--wrapper">
+                <img
+                  class="tech-stack-icon"
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  alt="language__image"
+                />
+              </figure>
+              <span class="language__name">JavaScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__image--wrapper">
+                <img
+                  class="tech-stack-icon"
+                  src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
+                  alt="language__image"
+                />
+              </figure>
+              <span class="language__name">TypeScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__image--wrapper">
+                <img
+                  class="tech-stack-icon"
+                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                  alt="language__image"
+                />
+              </figure>
+              <span class="language__name">React</span>
+            </div>
+            <div class="language">
+              <figure class="language__image--wrapper">
+                <img
+                  class="tech-stack-icon"
+                  src="./imports/images/next-js-icon-2048x2048-5dqjgeku.png"
+                  alt="language__image"
+                />
+              </figure>
+              <span class="language__name">NextJS</span>
+            </div>
+            <div class="language">
+              <figure class="language__image--wrapper">
+                <img
+                  class="tech-stack-icon"
+                  src="./imports/images/redux.svg"
+                  alt="language__image"
+                />
+              </figure>
+              <span class="language__name">Redux</span>
+            </div>
+            <div class="language">
+              <figure class="language__image--wrapper">
+                <img
+                  class="tech-stack-icon"
+                  src="./imports/images/tailwind.svg"
+                  alt="language__image"
+                />
+              </figure>
+              <span class="language__name">Tailwind</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="text--red">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  class="project__img"
+                  src="./imports/images/cryptoScreenShot.png"
+                  alt="crpytoappScreenShot"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Cryptocurrency Project
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, TypeScript, React, Redux, Tailwind,
+                    Next.JS, Git, Github
+                  </h4>
+                  <p class="project__description--para">
+                    This application allows users to effortlessly look up,
+                    compare, and manage a wide array of digital coins. The sleek
+                    and user-friendly interface allows for quick access to
+                    real-time market data, side by side comparison of coins,
+                    examining metrics such as market cap, trading volume, and
+                    historical performance. Manage your portfolio with features
+                    that allow for easy tracking of your investments,
+                    customizable alerts for price changes, and detailed
+                    performance reports.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      target="_blank"
+                      href="https://github.com/dcmillea/Crypto-App-Official"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      class="project__description--link"
+                      href="https://crypto-app-official-git-feat-homepage-dcmilleas-projects.vercel.app"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
