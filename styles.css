@@ -290,6 +290,13 @@ section:nth-child(even) {
     color: #fff;
 }
 
+/* EXTRA STUFF */
+
+.bottom__para {
+    font-size: 28px;
+    font-weight:300;
+    text-align: center;
+}
 
 /* FOOTER */
 
@@ -383,6 +390,10 @@ footer {
         left: 30px;
         padding-right: 30px;
     }
+
+    .bottom__para {
+        font-size: 18px;
+    }
 }
 
 @media(max-width: 480px){
@@ -419,6 +430,10 @@ footer {
 
     .project__description {
         padding: 0;
+    }
+
+    .bottom__para {
+        font-size: 12px;
     }
 }
 
